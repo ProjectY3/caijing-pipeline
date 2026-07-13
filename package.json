@@ -1,0 +1,15 @@
+{
+  "name": "financial-ip-workflow",
+  "version": "1.0.0",
+  "description": "财经IP每日内容生产工作流",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "data:fetch": "node scripts/fetch-market-data.js",
+    "write-card": "python scripts/write-card.py",
+    "prelint": "python scripts/prelint-check.py",
+    "check:xhs": "node scripts/lint-articles.js",
+    "daily": "node scripts/run-daily-workflow.js",
+    "daily:check": "node scripts/run-daily-workflow.js --skip-fetch",
+    "health": "node scripts/check-project-health.js"
+  }
+}
