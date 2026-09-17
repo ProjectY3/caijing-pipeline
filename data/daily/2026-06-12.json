@@ -1,0 +1,4063 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-06-12",
+  "fetched_at": "2026-06-12T18:05:34+08:00",
+  "source": "fetch-market-data.js",
+  "market": {
+    "breadth": {
+      "total": 5514,
+      "risers": 3923,
+      "fallers": 1515,
+      "flat": 76
+    }
+  },
+  "indices": [
+    {
+      "name": "上证指数",
+      "code": "sh000001",
+      "current": 4031.51,
+      "change_pct": 1.12,
+      "change": 44.5,
+      "volume": 743131092,
+      "amount": 15374.0152,
+      "trading_date": "2026-06-12"
+    },
+    {
+      "name": "深证成指",
+      "code": "sz399001",
+      "current": 14963.41,
+      "change_pct": 0.75,
+      "change": 111.43,
+      "volume": 792336423,
+      "amount": 16775.4823,
+      "trading_date": "2026-06-12"
+    },
+    {
+      "name": "创业板指",
+      "code": "sz399006",
+      "current": 3830.35,
+      "change_pct": 0.5,
+      "change": 19.1,
+      "volume": 230246100,
+      "amount": 8057.4023,
+      "trading_date": "2026-06-12"
+    },
+    {
+      "name": "科创50",
+      "code": "sh000688",
+      "current": 1663.22,
+      "change_pct": 0.05,
+      "change": 0.78,
+      "volume": 21018567,
+      "amount": 1758.2024,
+      "trading_date": "2026-06-12"
+    }
+  ],
+  "sectors": {
+    "all": [
+      {
+        "code": "BK1645",
+        "name": "昨日打二板以上表现",
+        "change_pct": 5.8,
+        "price": 42.257200000000005,
+        "amount": 183.47
+      },
+      {
+        "code": "BK0547",
+        "name": "黄金概念",
+        "change_pct": 4.51,
+        "price": 195.05700000000002,
+        "amount": 857.92
+      },
+      {
+        "code": "BK0480",
+        "name": "航天航空",
+        "change_pct": 4.42,
+        "price": 575.4583,
+        "amount": 396.23
+      },
+      {
+        "code": "BK0625",
+        "name": "通用航空",
+        "change_pct": 4.15,
+        "price": 56.677299999999995,
+        "amount": 248.58
+      },
+      {
+        "code": "BK0711",
+        "name": "券商概念",
+        "change_pct": 3.99,
+        "price": 10.3071,
+        "amount": 623.2
+      },
+      {
+        "code": "BK1107",
+        "name": "科创板做市商",
+        "change_pct": 3.59,
+        "price": 13.869100000000001,
+        "amount": 246.24
+      },
+      {
+        "code": "BK0695",
+        "name": "小金属概念",
+        "change_pct": 3.31,
+        "price": 45.885799999999996,
+        "amount": 2318.66
+      },
+      {
+        "code": "BK0524",
+        "name": "参股期货",
+        "change_pct": 3.18,
+        "price": 303.0861,
+        "amount": 419.07
+      },
+      {
+        "code": "BK0519",
+        "name": "稀缺资源",
+        "change_pct": 3.17,
+        "price": 378.7021,
+        "amount": 1569.36
+      },
+      {
+        "code": "BK0986",
+        "name": "CAR-T细胞疗法",
+        "change_pct": 3.17,
+        "price": 10.1655,
+        "amount": 104.74
+      },
+      {
+        "code": "BK0950",
+        "name": "草甘膦",
+        "change_pct": 3.11,
+        "price": 17.0167,
+        "amount": 74.92
+      },
+      {
+        "code": "BK1052",
+        "name": "动力电池回收",
+        "change_pct": 2.99,
+        "price": 993.07,
+        "amount": 786.42
+      },
+      {
+        "code": "BK0818",
+        "name": "可燃冰",
+        "change_pct": 2.98,
+        "price": 15.4722,
+        "amount": 26.63
+      },
+      {
+        "code": "BK0807",
+        "name": "共享经济",
+        "change_pct": 2.98,
+        "price": 861.08,
+        "amount": 63.66
+      },
+      {
+        "code": "BK1170",
+        "name": "AI制药（医疗）",
+        "change_pct": 2.87,
+        "price": 12.328499999999998,
+        "amount": 160.63
+      },
+      {
+        "code": "BK0868",
+        "name": "GDR",
+        "change_pct": 2.78,
+        "price": 10.3057,
+        "amount": 179.31
+      },
+      {
+        "code": "BK1054",
+        "name": "DRG/DIP",
+        "change_pct": 2.76,
+        "price": 956.15,
+        "amount": 41.58
+      },
+      {
+        "code": "BK0578",
+        "name": "稀土永磁",
+        "change_pct": 2.66,
+        "price": 37.4403,
+        "amount": 815.21
+      },
+      {
+        "code": "BK0485",
+        "name": "旅游酒店",
+        "change_pct": 2.63,
+        "price": 143.37,
+        "amount": 80.1
+      },
+      {
+        "code": "BK0979",
+        "name": "低碳冶金",
+        "change_pct": 2.62,
+        "price": 928.23,
+        "amount": 27.76
+      },
+      {
+        "code": "BK0805",
+        "name": "钛白粉概念",
+        "change_pct": 2.58,
+        "price": 13.747300000000001,
+        "amount": 62.63
+      },
+      {
+        "code": "BK0715",
+        "name": "航母概念",
+        "change_pct": 2.53,
+        "price": 10.3946,
+        "amount": 344.78
+      },
+      {
+        "code": "BK1714",
+        "name": "金融地产风格",
+        "change_pct": 2.52,
+        "price": 10.2422,
+        "amount": 1129.5
+      },
+      {
+        "code": "BK0994",
+        "name": "空间站概念",
+        "change_pct": 2.5,
+        "price": 23.7936,
+        "amount": 140.02
+      },
+      {
+        "code": "BK1173",
+        "name": "锂矿概念",
+        "change_pct": 2.49,
+        "price": 22.0842,
+        "amount": 1072.76
+      },
+      {
+        "code": "BK1186",
+        "name": "首发经济",
+        "change_pct": 2.48,
+        "price": 10.1687,
+        "amount": 125.98
+      },
+      {
+        "code": "BK1074",
+        "name": "托育服务",
+        "change_pct": 2.44,
+        "price": 846.46,
+        "amount": 7.94
+      },
+      {
+        "code": "BK0637",
+        "name": "互联网金融",
+        "change_pct": 2.41,
+        "price": 49.0087,
+        "amount": 1563.35
+      },
+      {
+        "code": "BK0729",
+        "name": "船舶制造",
+        "change_pct": 2.4,
+        "price": 11.947899999999999,
+        "amount": 114.69
+      },
+      {
+        "code": "BK0814",
+        "name": "大飞机",
+        "change_pct": 2.4,
+        "price": 18.8231,
+        "amount": 740.51
+      },
+      {
+        "code": "BK1063",
+        "name": "重组蛋白",
+        "change_pct": 2.39,
+        "price": 838.52,
+        "amount": 26.08
+      },
+      {
+        "code": "BK1670",
+        "name": "中盘价值",
+        "change_pct": 2.37,
+        "price": 956.08,
+        "amount": 1156.13
+      },
+      {
+        "code": "BK0943",
+        "name": "汽车拆解",
+        "change_pct": 2.36,
+        "price": 13.3117,
+        "amount": 67.65
+      },
+      {
+        "code": "BK0938",
+        "name": "代糖概念",
+        "change_pct": 2.35,
+        "price": 10.6924,
+        "amount": 87.33
+      },
+      {
+        "code": "BK0927",
+        "name": "免税概念",
+        "change_pct": 2.32,
+        "price": 11.644,
+        "amount": 78.56
+      },
+      {
+        "code": "BK0622",
+        "name": "地热能",
+        "change_pct": 2.3,
+        "price": 69.5516,
+        "amount": 108.12
+      },
+      {
+        "code": "BK1171",
+        "name": "碳纤维",
+        "change_pct": 2.29,
+        "price": 18.4618,
+        "amount": 395.11
+      },
+      {
+        "code": "BK1073",
+        "name": "啤酒概念",
+        "change_pct": 2.28,
+        "price": 11.9902,
+        "amount": 48.7
+      },
+      {
+        "code": "BK0980",
+        "name": "化债(AMC)概念",
+        "change_pct": 2.27,
+        "price": 10.665,
+        "amount": 206.59
+      },
+      {
+        "code": "BK0899",
+        "name": "CRO",
+        "change_pct": 2.25,
+        "price": 16.1428,
+        "amount": 143.16
+      },
+      {
+        "code": "BK1658",
+        "name": "创新医疗服务",
+        "change_pct": 2.25,
+        "price": 844.55,
+        "amount": 273.59
+      },
+      {
+        "code": "BK0951",
+        "name": "刀片电池",
+        "change_pct": 2.25,
+        "price": 37.0932,
+        "amount": 181.69
+      },
+      {
+        "code": "BK0692",
+        "name": "旅游概念",
+        "change_pct": 2.25,
+        "price": 15.1401,
+        "amount": 105.25
+      },
+      {
+        "code": "BK1146",
+        "name": "减肥药",
+        "change_pct": 2.23,
+        "price": 11.0732,
+        "amount": 135.05
+      },
+      {
+        "code": "BK0675",
+        "name": "病毒防治",
+        "change_pct": 2.22,
+        "price": 24.456100000000003,
+        "amount": 216.34
+      },
+      {
+        "code": "BK0870",
+        "name": "单抗概念",
+        "change_pct": 2.22,
+        "price": 14.989600000000001,
+        "amount": 166.18
+      },
+      {
+        "code": "BK0924",
+        "name": "地摊经济",
+        "change_pct": 2.22,
+        "price": 18.791700000000002,
+        "amount": 115.92
+      },
+      {
+        "code": "BK0730",
+        "name": "农药兽药",
+        "change_pct": 2.2,
+        "price": 11.908399999999999,
+        "amount": 74.92
+      },
+      {
+        "code": "BK1026",
+        "name": "调味品概念",
+        "change_pct": 2.2,
+        "price": 972.06,
+        "amount": 92.41
+      },
+      {
+        "code": "BK0993",
+        "name": "宠物经济",
+        "change_pct": 2.2,
+        "price": 823.8,
+        "amount": 82.41
+      },
+      {
+        "code": "BK0894",
+        "name": "阿兹海默",
+        "change_pct": 2.17,
+        "price": 17.416900000000002,
+        "amount": 45.51
+      },
+      {
+        "code": "BK1192",
+        "name": "雅下水电概念",
+        "change_pct": 2.16,
+        "price": 12.3543,
+        "amount": 374.49
+      },
+      {
+        "code": "BK0965",
+        "name": "社区团购",
+        "change_pct": 2.15,
+        "price": 800.87,
+        "amount": 55.63
+      },
+      {
+        "code": "BK1095",
+        "name": "钒电池",
+        "change_pct": 2.14,
+        "price": 13.133099999999999,
+        "amount": 121.19
+      },
+      {
+        "code": "BK1712",
+        "name": "医药医疗风格",
+        "change_pct": 2.14,
+        "price": 996.46,
+        "amount": 564.3
+      },
+      {
+        "code": "BK0698",
+        "name": "免疫治疗",
+        "change_pct": 2.12,
+        "price": 13.6071,
+        "amount": 68.17
+      },
+      {
+        "code": "BK0808",
+        "name": "军民融合",
+        "change_pct": 2.12,
+        "price": 20.7744,
+        "amount": 1383.33
+      },
+      {
+        "code": "BK1014",
+        "name": "发电机概念",
+        "change_pct": 2.1,
+        "price": 17.5061,
+        "amount": 54.33
+      },
+      {
+        "code": "BK1098",
+        "name": "生物质能发电",
+        "change_pct": 2.07,
+        "price": 10.9426,
+        "amount": 49.94
+      },
+      {
+        "code": "BK0672",
+        "name": "沪企改革",
+        "change_pct": 2.05,
+        "price": 23.7504,
+        "amount": 104.47
+      },
+      {
+        "code": "BK0693",
+        "name": "基因测序",
+        "change_pct": 2.03,
+        "price": 17.2239,
+        "amount": 105.54
+      },
+      {
+        "code": "BK1661",
+        "name": "行业龙头",
+        "change_pct": 2.02,
+        "price": 943.07,
+        "amount": 3350.12
+      },
+      {
+        "code": "BK1657",
+        "name": "病原体防治",
+        "change_pct": 2.02,
+        "price": 868.29,
+        "amount": 286.48
+      },
+      {
+        "code": "BK0669",
+        "name": "生态农业",
+        "change_pct": 1.99,
+        "price": 14.105699999999999,
+        "amount": 65.06
+      },
+      {
+        "code": "BK0470",
+        "name": "造纸印刷",
+        "change_pct": 1.96,
+        "price": 100.21780000000001,
+        "amount": 63.05
+      },
+      {
+        "code": "BK0505",
+        "name": "中字头",
+        "change_pct": 1.96,
+        "price": 88.0642,
+        "amount": 1042.26
+      },
+      {
+        "code": "BK1639",
+        "name": "周期股",
+        "change_pct": 1.95,
+        "price": 943.04,
+        "amount": 3417.04
+      },
+      {
+        "code": "BK0514",
+        "name": "参股券商",
+        "change_pct": 1.94,
+        "price": 138.32129999999998,
+        "amount": 716.1
+      },
+      {
+        "code": "BK1106",
+        "name": "创新药",
+        "change_pct": 1.92,
+        "price": 12.961500000000001,
+        "amount": 485.03
+      },
+      {
+        "code": "BK1147",
+        "name": "SPD概念",
+        "change_pct": 1.92,
+        "price": 918.13,
+        "amount": 11.96
+      },
+      {
+        "code": "BK1655",
+        "name": "零售概念",
+        "change_pct": 1.91,
+        "price": 841.71,
+        "amount": 151.28
+      },
+      {
+        "code": "BK0604",
+        "name": "参股保险",
+        "change_pct": 1.91,
+        "price": 25.3019,
+        "amount": 345.88
+      },
+      {
+        "code": "BK0704",
+        "name": "无人机",
+        "change_pct": 1.9,
+        "price": 27.3796,
+        "amount": 1465.22
+      },
+      {
+        "code": "BK1671",
+        "name": "超跌股",
+        "change_pct": 1.9,
+        "price": 656.34,
+        "amount": 58.31
+      },
+      {
+        "code": "BK0895",
+        "name": "维生素",
+        "change_pct": 1.89,
+        "price": 17.3355,
+        "amount": 75.53
+      },
+      {
+        "code": "BK1066",
+        "name": "民爆概念",
+        "change_pct": 1.89,
+        "price": 15.1492,
+        "amount": 77.63
+      },
+      {
+        "code": "BK0632",
+        "name": "土地流转",
+        "change_pct": 1.88,
+        "price": 16.5646,
+        "amount": 77.77
+      },
+      {
+        "code": "BK0872",
+        "name": "青蒿素",
+        "change_pct": 1.88,
+        "price": 18.130499999999998,
+        "amount": 40.68
+      },
+      {
+        "code": "BK1664",
+        "name": "中盘股",
+        "change_pct": 1.88,
+        "price": 992.7,
+        "amount": 7210.41
+      },
+      {
+        "code": "BK1659",
+        "name": "精准诊断",
+        "change_pct": 1.87,
+        "price": 845.92,
+        "amount": 142.39
+      },
+      {
+        "code": "BK1174",
+        "name": "合成生物",
+        "change_pct": 1.85,
+        "price": 12.186,
+        "amount": 343.16
+      },
+      {
+        "code": "BK1198",
+        "name": "2025三季报预增",
+        "change_pct": 1.85,
+        "price": 10.7072,
+        "amount": 1126.97
+      },
+      {
+        "code": "BK0974",
+        "name": "化妆品概念",
+        "change_pct": 1.84,
+        "price": 11.3649,
+        "amount": 87.46
+      },
+      {
+        "code": "BK1029",
+        "name": "汽车整车",
+        "change_pct": 1.83,
+        "price": 14.9499,
+        "amount": 160.39
+      },
+      {
+        "code": "BK1078",
+        "name": "肝炎概念",
+        "change_pct": 1.83,
+        "price": 12.213299999999998,
+        "amount": 140.31
+      },
+      {
+        "code": "BK1006",
+        "name": "碳基材料",
+        "change_pct": 1.83,
+        "price": 12.863599999999998,
+        "amount": 138.74
+      },
+      {
+        "code": "BK0983",
+        "name": "核污染防治",
+        "change_pct": 1.82,
+        "price": 18.158900000000003,
+        "amount": 146.87
+      },
+      {
+        "code": "BK1068",
+        "name": "净水概念",
+        "change_pct": 1.81,
+        "price": 12.097999999999999,
+        "amount": 94.22
+      },
+      {
+        "code": "BK0822",
+        "name": "租售同权",
+        "change_pct": 1.81,
+        "price": 640.44,
+        "amount": 52.24
+      },
+      {
+        "code": "BK1668",
+        "name": "小盘价值",
+        "change_pct": 1.81,
+        "price": 934.81,
+        "amount": 1099.62
+      },
+      {
+        "code": "BK0937",
+        "name": "蚂蚁概念",
+        "change_pct": 1.81,
+        "price": 724.73,
+        "amount": 480.85
+      },
+      {
+        "code": "BK1112",
+        "name": "破净股",
+        "change_pct": 1.8,
+        "price": 14.0055,
+        "amount": 1274.36
+      },
+      {
+        "code": "BK1025",
+        "name": "预制菜概念",
+        "change_pct": 1.8,
+        "price": 10.166,
+        "amount": 78.7
+      },
+      {
+        "code": "BK0653",
+        "name": "养老概念",
+        "change_pct": 1.8,
+        "price": 25.5817,
+        "amount": 397.62
+      },
+      {
+        "code": "BK1653",
+        "name": "味蕾经济",
+        "change_pct": 1.8,
+        "price": 872.2,
+        "amount": 295.41
+      },
+      {
+        "code": "BK1109",
+        "name": "供销社概念",
+        "change_pct": 1.79,
+        "price": 10.096,
+        "amount": 29.42
+      },
+      {
+        "code": "BK0837",
+        "name": "互联医疗",
+        "change_pct": 1.79,
+        "price": 950.24,
+        "amount": 298.71
+      },
+      {
+        "code": "BK1190",
+        "name": "虚拟机器人",
+        "change_pct": 1.78,
+        "price": 13.4793,
+        "amount": 348.59
+      },
+      {
+        "code": "BK0525",
+        "name": "参股银行",
+        "change_pct": 1.77,
+        "price": 117.4508,
+        "amount": 1441.42
+      },
+      {
+        "code": "BK0548",
+        "name": "生物疫苗",
+        "change_pct": 1.77,
+        "price": 241.1582,
+        "amount": 131.36
+      },
+      {
+        "code": "BK0939",
+        "name": "辅助生殖",
+        "change_pct": 1.77,
+        "price": 10.0389,
+        "amount": 134.53
+      },
+      {
+        "code": "BK0906",
+        "name": "流感",
+        "change_pct": 1.76,
+        "price": 15.0504,
+        "amount": 212.68
+      },
+      {
+        "code": "BK1017",
+        "name": "资源开采概念",
+        "change_pct": 1.75,
+        "price": 15.9741,
+        "amount": 72.1
+      },
+      {
+        "code": "BK0492",
+        "name": "煤化工概念",
+        "change_pct": 1.75,
+        "price": 112.90889999999999,
+        "amount": 455.99
+      },
+      {
+        "code": "BK1652",
+        "name": "新消费",
+        "change_pct": 1.75,
+        "price": 846.4,
+        "amount": 137.06
+      },
+      {
+        "code": "BK0866",
+        "name": "人造肉",
+        "change_pct": 1.74,
+        "price": 11.8566,
+        "amount": 67.25
+      },
+      {
+        "code": "BK1093",
+        "name": "汽车一体化压铸",
+        "change_pct": 1.73,
+        "price": 13.9751,
+        "amount": 148.55
+      },
+      {
+        "code": "BK1058",
+        "name": "地下管网",
+        "change_pct": 1.73,
+        "price": 11.899700000000001,
+        "amount": 80.54
+      },
+      {
+        "code": "BK0838",
+        "name": "东北振兴",
+        "change_pct": 1.73,
+        "price": 11.431,
+        "amount": 176.09
+      },
+      {
+        "code": "BK0889",
+        "name": "医美概念",
+        "change_pct": 1.72,
+        "price": 16.6152,
+        "amount": 359.66
+      },
+      {
+        "code": "BK0499",
+        "name": "AH股",
+        "change_pct": 1.72,
+        "price": 92.2085,
+        "amount": 3678.23
+      },
+      {
+        "code": "BK0944",
+        "name": "肝素概念",
+        "change_pct": 1.71,
+        "price": 811.05,
+        "amount": 18.03
+      },
+      {
+        "code": "BK0856",
+        "name": "工业大麻",
+        "change_pct": 1.7,
+        "price": 17.8079,
+        "amount": 61.24
+      },
+      {
+        "code": "BK0991",
+        "name": "工程机械概念",
+        "change_pct": 1.7,
+        "price": 16.6933,
+        "amount": 184.76
+      },
+      {
+        "code": "BK1056",
+        "name": "幽门螺杆菌概念",
+        "change_pct": 1.7,
+        "price": 904.15,
+        "amount": 76.85
+      },
+      {
+        "code": "BK1636",
+        "name": "红利破净股",
+        "change_pct": 1.7,
+        "price": 10.4073,
+        "amount": 356.76
+      },
+      {
+        "code": "BK0664",
+        "name": "婴童概念",
+        "change_pct": 1.7,
+        "price": 16.1718,
+        "amount": 218.79
+      },
+      {
+        "code": "BK1001",
+        "name": "内贸流通",
+        "change_pct": 1.69,
+        "price": 12.1196,
+        "amount": 322.19
+      },
+      {
+        "code": "BK0883",
+        "name": "数字货币",
+        "change_pct": 1.69,
+        "price": 16.5018,
+        "amount": 287.2
+      },
+      {
+        "code": "BK1166",
+        "name": "低空经济",
+        "change_pct": 1.69,
+        "price": 16.795,
+        "amount": 1639.27
+      },
+      {
+        "code": "BK0629",
+        "name": "北斗导航",
+        "change_pct": 1.69,
+        "price": 68.5688,
+        "amount": 430.01
+      },
+      {
+        "code": "BK1193",
+        "name": "海南自贸",
+        "change_pct": 1.69,
+        "price": 938.1,
+        "amount": 380.56
+      },
+      {
+        "code": "BK1156",
+        "name": "PEEK材料概念",
+        "change_pct": 1.69,
+        "price": 19.525199999999998,
+        "amount": 402.31
+      },
+      {
+        "code": "BK0611",
+        "name": "上证50_",
+        "change_pct": 1.69,
+        "price": 20.6229,
+        "amount": 2193.02
+      },
+      {
+        "code": "BK1656",
+        "name": "特色药",
+        "change_pct": 1.68,
+        "price": 848.06,
+        "amount": 54.41
+      },
+      {
+        "code": "BK0701",
+        "name": "中证500",
+        "change_pct": 1.68,
+        "price": 25.589699999999997,
+        "amount": 6686.8
+      },
+      {
+        "code": "BK0830",
+        "name": "区块链",
+        "change_pct": 1.68,
+        "price": 10.499500000000001,
+        "amount": 1325.98
+      },
+      {
+        "code": "BK0512",
+        "name": "化工原料",
+        "change_pct": 1.67,
+        "price": 289.3498,
+        "amount": 670.2
+      },
+      {
+        "code": "BK0718",
+        "name": "证金持股",
+        "change_pct": 1.67,
+        "price": 13.614700000000001,
+        "amount": 2595.35
+      },
+      {
+        "code": "BK0643",
+        "name": "上海自贸",
+        "change_pct": 1.66,
+        "price": 31.918000000000003,
+        "amount": 142.56
+      },
+      {
+        "code": "BK0614",
+        "name": "食品安全",
+        "change_pct": 1.66,
+        "price": 71.1791,
+        "amount": 125.83
+      },
+      {
+        "code": "BK1086",
+        "name": "粮食概念",
+        "change_pct": 1.65,
+        "price": 696.07,
+        "amount": 45.48
+      },
+      {
+        "code": "BK0574",
+        "name": "锂电池概念",
+        "change_pct": 1.65,
+        "price": 45.84,
+        "amount": 4453.46
+      },
+      {
+        "code": "BK1010",
+        "name": "磷化工",
+        "change_pct": 1.64,
+        "price": 997.84,
+        "amount": 454.96
+      },
+      {
+        "code": "BK0697",
+        "name": "IPO受益",
+        "change_pct": 1.64,
+        "price": 31.522399999999998,
+        "amount": 341.47
+      },
+      {
+        "code": "BK1092",
+        "name": "麒麟电池",
+        "change_pct": 1.63,
+        "price": 21.9203,
+        "amount": 208.02
+      },
+      {
+        "code": "BK1641",
+        "name": "红利股",
+        "change_pct": 1.63,
+        "price": 981.15,
+        "amount": 649.37
+      },
+      {
+        "code": "BK0665",
+        "name": "电商概念",
+        "change_pct": 1.63,
+        "price": 21.8992,
+        "amount": 1085.12
+      },
+      {
+        "code": "BK1711",
+        "name": "消费风格",
+        "change_pct": 1.62,
+        "price": 991.97,
+        "amount": 744.58
+      },
+      {
+        "code": "BK0806",
+        "name": "精准医疗",
+        "change_pct": 1.62,
+        "price": 971.62,
+        "amount": 114
+      },
+      {
+        "code": "BK0988",
+        "name": "钠离子电池",
+        "change_pct": 1.61,
+        "price": 18.551199999999998,
+        "amount": 753.01
+      },
+      {
+        "code": "BK1181",
+        "name": "并购重组概念",
+        "change_pct": 1.61,
+        "price": 13.5147,
+        "amount": 585.68
+      },
+      {
+        "code": "BK0534",
+        "name": "成渝特区",
+        "change_pct": 1.6,
+        "price": 212.8184,
+        "amount": 448.82
+      },
+      {
+        "code": "BK0733",
+        "name": "包装材料",
+        "change_pct": 1.6,
+        "price": 12.8806,
+        "amount": 61.53
+      },
+      {
+        "code": "BK0490",
+        "name": "军工",
+        "change_pct": 1.6,
+        "price": 839.692,
+        "amount": 2624.49
+      },
+      {
+        "code": "BK0968",
+        "name": "固态电池",
+        "change_pct": 1.6,
+        "price": 27.6505,
+        "amount": 2833.66
+      },
+      {
+        "code": "BK0825",
+        "name": "新零售",
+        "change_pct": 1.59,
+        "price": 947.76,
+        "amount": 503.05
+      },
+      {
+        "code": "BK0879",
+        "name": "标准普尔",
+        "change_pct": 1.59,
+        "price": 16.9222,
+        "amount": 11034.88
+      },
+      {
+        "code": "BK0612",
+        "name": "上证180_",
+        "change_pct": 1.58,
+        "price": 17.235799999999998,
+        "amount": 4727.15
+      },
+      {
+        "code": "BK0940",
+        "name": "网红经济",
+        "change_pct": 1.57,
+        "price": 699.45,
+        "amount": 428.9
+      },
+      {
+        "code": "BK0590",
+        "name": "西部大开发",
+        "change_pct": 1.57,
+        "price": 34.2337,
+        "amount": 3629.75
+      },
+      {
+        "code": "BK0603",
+        "name": "页岩气",
+        "change_pct": 1.56,
+        "price": 26.4762,
+        "amount": 185.38
+      },
+      {
+        "code": "BK0500",
+        "name": "HS300_",
+        "change_pct": 1.55,
+        "price": 120.5496,
+        "amount": 8714.77
+      },
+      {
+        "code": "BK0705",
+        "name": "上证380",
+        "change_pct": 1.55,
+        "price": 29.1076,
+        "amount": 3821.05
+      },
+      {
+        "code": "BK0615",
+        "name": "中药概念",
+        "change_pct": 1.54,
+        "price": 20.3175,
+        "amount": 230.89
+      },
+      {
+        "code": "BK0676",
+        "name": "独家药品",
+        "change_pct": 1.54,
+        "price": 22.375500000000002,
+        "amount": 64.32
+      },
+      {
+        "code": "BK0712",
+        "name": "一带一路",
+        "change_pct": 1.54,
+        "price": 15.7137,
+        "amount": 2931.09
+      },
+      {
+        "code": "BK1680",
+        "name": "2026一季报预增",
+        "change_pct": 1.52,
+        "price": 10.189400000000001,
+        "amount": 2154.23
+      },
+      {
+        "code": "BK1673",
+        "name": "破增发价股",
+        "change_pct": 1.51,
+        "price": 917.57,
+        "amount": 2129.95
+      },
+      {
+        "code": "BK1185",
+        "name": "冰雪经济",
+        "change_pct": 1.51,
+        "price": 980.25,
+        "amount": 97.17
+      },
+      {
+        "code": "BK0429",
+        "name": "交运设备",
+        "change_pct": 1.5,
+        "price": 100.76709999999999,
+        "amount": 99.54
+      },
+      {
+        "code": "BK1666",
+        "name": "大盘价值",
+        "change_pct": 1.5,
+        "price": 956.89,
+        "amount": 1714.12
+      },
+      {
+        "code": "BK1635",
+        "name": "长期破净",
+        "change_pct": 1.5,
+        "price": 932.51,
+        "amount": 591.21
+      },
+      {
+        "code": "BK0689",
+        "name": "阿里概念",
+        "change_pct": 1.49,
+        "price": 25.3682,
+        "amount": 1549.86
+      },
+      {
+        "code": "BK0683",
+        "name": "央国企改革",
+        "change_pct": 1.49,
+        "price": 48.450900000000004,
+        "amount": 8511.06
+      },
+      {
+        "code": "BK1143",
+        "name": "空间计算",
+        "change_pct": 1.49,
+        "price": 15.281500000000001,
+        "amount": 107.75
+      },
+      {
+        "code": "BK1130",
+        "name": "时空大数据",
+        "change_pct": 1.49,
+        "price": 14.54,
+        "amount": 101.97
+      },
+      {
+        "code": "BK0696",
+        "name": "国产软件",
+        "change_pct": 1.49,
+        "price": 32.705999999999996,
+        "amount": 991.06
+      },
+      {
+        "code": "BK0933",
+        "name": "退税商店",
+        "change_pct": 1.49,
+        "price": 11.5283,
+        "amount": 21.8
+      },
+      {
+        "code": "BK0888",
+        "name": "农业种植",
+        "change_pct": 1.48,
+        "price": 22.608600000000003,
+        "amount": 158.76
+      },
+      {
+        "code": "BK1644",
+        "name": "微盘精选",
+        "change_pct": 1.48,
+        "price": 857.79,
+        "amount": 22.65
+      },
+      {
+        "code": "BK0568",
+        "name": "深成500",
+        "change_pct": 1.47,
+        "price": 14.504100000000001,
+        "amount": 9471.54
+      },
+      {
+        "code": "BK0892",
+        "name": "乳业",
+        "change_pct": 1.47,
+        "price": 966.43,
+        "amount": 49.96
+      },
+      {
+        "code": "BK1710",
+        "name": "先进制造风格",
+        "change_pct": 1.46,
+        "price": 984.93,
+        "amount": 2576.46
+      },
+      {
+        "code": "BK0821",
+        "name": "MSCI中国",
+        "change_pct": 1.46,
+        "price": 14.686300000000001,
+        "amount": 15122.69
+      },
+      {
+        "code": "BK0867",
+        "name": "富时罗素",
+        "change_pct": 1.46,
+        "price": 17.7167,
+        "amount": 15611.52
+      },
+      {
+        "code": "BK0812",
+        "name": "贬值受益",
+        "change_pct": 1.45,
+        "price": 17.0017,
+        "amount": 1285.76
+      },
+      {
+        "code": "BK1179",
+        "name": "房屋检测",
+        "change_pct": 1.45,
+        "price": 13.607999999999999,
+        "amount": 62.78
+      },
+      {
+        "code": "BK0841",
+        "name": "体外诊断概念",
+        "change_pct": 1.44,
+        "price": 12.4115,
+        "amount": 170.28
+      },
+      {
+        "code": "BK1023",
+        "name": "培育钻石",
+        "change_pct": 1.43,
+        "price": 29.2359,
+        "amount": 167.16
+      },
+      {
+        "code": "BK1108",
+        "name": "科创板做市股",
+        "change_pct": 1.43,
+        "price": 13.2059,
+        "amount": 511.68
+      },
+      {
+        "code": "BK0520",
+        "name": "社保重仓",
+        "change_pct": 1.42,
+        "price": 143.83180000000002,
+        "amount": 53.14
+      },
+      {
+        "code": "BK1000",
+        "name": "宁组合",
+        "change_pct": 1.42,
+        "price": 611.82,
+        "amount": 925.74
+      },
+      {
+        "code": "BK1099",
+        "name": "轮毂电机",
+        "change_pct": 1.42,
+        "price": 10.3959,
+        "amount": 8.87
+      },
+      {
+        "code": "BK0707",
+        "name": "沪股通",
+        "change_pct": 1.41,
+        "price": 25.6112,
+        "amount": 13839.76
+      },
+      {
+        "code": "BK1643",
+        "name": "小盘股",
+        "change_pct": 1.4,
+        "price": 908.49,
+        "amount": 6830.11
+      },
+      {
+        "code": "BK0684",
+        "name": "京津冀",
+        "change_pct": 1.4,
+        "price": 17.54,
+        "amount": 203.89
+      },
+      {
+        "code": "BK1071",
+        "name": "跨境支付",
+        "change_pct": 1.4,
+        "price": 14.714400000000001,
+        "amount": 402.44
+      },
+      {
+        "code": "BK1087",
+        "name": "超超临界发电",
+        "change_pct": 1.4,
+        "price": 15.9193,
+        "amount": 303.66
+      },
+      {
+        "code": "BK1648",
+        "name": "电池技术",
+        "change_pct": 1.4,
+        "price": 984.52,
+        "amount": 5869.69
+      },
+      {
+        "code": "BK1072",
+        "name": "中俄贸易概念",
+        "change_pct": 1.39,
+        "price": 15.8433,
+        "amount": 168.41
+      },
+      {
+        "code": "BK1662",
+        "name": "权重股",
+        "change_pct": 1.39,
+        "price": 10.3545,
+        "amount": 3122.62
+      },
+      {
+        "code": "BK0823",
+        "name": "养老金",
+        "change_pct": 1.39,
+        "price": 16.9115,
+        "amount": 1565.24
+      },
+      {
+        "code": "BK0995",
+        "name": "华为昇腾",
+        "change_pct": 1.39,
+        "price": 15.375399999999999,
+        "amount": 245.83
+      },
+      {
+        "code": "BK0600",
+        "name": "参股新三板",
+        "change_pct": 1.39,
+        "price": 29.381,
+        "amount": 595.15
+      },
+      {
+        "code": "BK1053",
+        "name": "低价股",
+        "change_pct": 1.39,
+        "price": 10.632,
+        "amount": 332.24
+      },
+      {
+        "code": "BK1077",
+        "name": "统一大市场",
+        "change_pct": 1.39,
+        "price": 12.216500000000002,
+        "amount": 62.52
+      },
+      {
+        "code": "BK1672",
+        "name": "破发股",
+        "change_pct": 1.38,
+        "price": 915.14,
+        "amount": 792.97
+      },
+      {
+        "code": "BK0721",
+        "name": "PPP模式",
+        "change_pct": 1.38,
+        "price": 783.34,
+        "amount": 387.92
+      },
+      {
+        "code": "BK0955",
+        "name": "C2M概念",
+        "change_pct": 1.38,
+        "price": 13.6298,
+        "amount": 68.06
+      },
+      {
+        "code": "BK0594",
+        "name": "长江三角",
+        "change_pct": 1.37,
+        "price": 28.0099,
+        "amount": 2753.59
+      },
+      {
+        "code": "BK0873",
+        "name": "垃圾分类",
+        "change_pct": 1.37,
+        "price": 15.9028,
+        "amount": 185.56
+      },
+      {
+        "code": "BK1157",
+        "name": "飞行汽车(eVTOL)",
+        "change_pct": 1.37,
+        "price": 20.746599999999997,
+        "amount": 446.07
+      },
+      {
+        "code": "BK0992",
+        "name": "REITs概念",
+        "change_pct": 1.37,
+        "price": 752.05,
+        "amount": 79.77
+      },
+      {
+        "code": "BK1139",
+        "name": "中特估",
+        "change_pct": 1.36,
+        "price": 11.790799999999999,
+        "amount": 1131.87
+      },
+      {
+        "code": "BK1133",
+        "name": "ERP概念",
+        "change_pct": 1.36,
+        "price": 13.031099999999999,
+        "amount": 83.2
+      },
+      {
+        "code": "BK1189",
+        "name": "腾讯云",
+        "change_pct": 1.36,
+        "price": 982.36,
+        "amount": 182.8
+      },
+      {
+        "code": "BK1669",
+        "name": "中盘成长",
+        "change_pct": 1.35,
+        "price": 10.5966,
+        "amount": 4050.35
+      },
+      {
+        "code": "BK1079",
+        "name": "户外露营",
+        "change_pct": 1.35,
+        "price": 14.134400000000001,
+        "amount": 27.79
+      },
+      {
+        "code": "BK0907",
+        "name": "转基因",
+        "change_pct": 1.35,
+        "price": 13.5519,
+        "amount": 41.49
+      },
+      {
+        "code": "BK0528",
+        "name": "转债标的",
+        "change_pct": 1.35,
+        "price": 127.4481,
+        "amount": 1670.58
+      },
+      {
+        "code": "BK1629",
+        "name": "AI应用",
+        "change_pct": 1.34,
+        "price": 741.17,
+        "amount": 1115.61
+      },
+      {
+        "code": "BK0668",
+        "name": "医疗器械概念",
+        "change_pct": 1.34,
+        "price": 41.122600000000006,
+        "amount": 1389
+      },
+      {
+        "code": "BK0999",
+        "name": "茅指数",
+        "change_pct": 1.33,
+        "price": 699.8,
+        "amount": 1477.44
+      },
+      {
+        "code": "BK1135",
+        "name": "数据要素",
+        "change_pct": 1.33,
+        "price": 11.437999999999999,
+        "amount": 773.93
+      },
+      {
+        "code": "BK0477",
+        "name": "酿酒概念",
+        "change_pct": 1.32,
+        "price": 392.39419999999996,
+        "amount": 176.86
+      },
+      {
+        "code": "BK1654",
+        "name": "文娱消费",
+        "change_pct": 1.32,
+        "price": 840.57,
+        "amount": 364.62
+      },
+      {
+        "code": "BK0834",
+        "name": "乡村振兴",
+        "change_pct": 1.32,
+        "price": 15.0923,
+        "amount": 323.46
+      },
+      {
+        "code": "BK0804",
+        "name": "深股通",
+        "change_pct": 1.31,
+        "price": 12.5943,
+        "amount": 15045.39
+      },
+      {
+        "code": "BK0886",
+        "name": "智慧政务",
+        "change_pct": 1.3,
+        "price": 13.6548,
+        "amount": 231.53
+      },
+      {
+        "code": "BK1024",
+        "name": "绿色电力",
+        "change_pct": 1.3,
+        "price": 13.355599999999999,
+        "amount": 950.72
+      },
+      {
+        "code": "BK1158",
+        "name": "微盘股",
+        "change_pct": 1.29,
+        "price": 34.18,
+        "amount": 180.4
+      },
+      {
+        "code": "BK1677",
+        "name": "2025年报预增",
+        "change_pct": 1.29,
+        "price": 938.73,
+        "amount": 6824.61
+      },
+      {
+        "code": "BK1663",
+        "name": "大盘股",
+        "change_pct": 1.29,
+        "price": 997.18,
+        "amount": 10789.79
+      },
+      {
+        "code": "BK0577",
+        "name": "核能核电",
+        "change_pct": 1.29,
+        "price": 29.0288,
+        "amount": 1179.33
+      },
+      {
+        "code": "BK0914",
+        "name": "医废处理",
+        "change_pct": 1.29,
+        "price": 12.9834,
+        "amount": 48.72
+      },
+      {
+        "code": "BK1640",
+        "name": "价值股",
+        "change_pct": 1.29,
+        "price": 943.66,
+        "amount": 701.03
+      },
+      {
+        "code": "BK0852",
+        "name": "冷链物流",
+        "change_pct": 1.29,
+        "price": 19.9457,
+        "amount": 416.9
+      },
+      {
+        "code": "BK0813",
+        "name": "雄安新区",
+        "change_pct": 1.28,
+        "price": 978.48,
+        "amount": 451.66
+      },
+      {
+        "code": "BK1103",
+        "name": "熔盐储能",
+        "change_pct": 1.27,
+        "price": 10.8406,
+        "amount": 25.59
+      },
+      {
+        "code": "BK0677",
+        "name": "粤港自贸",
+        "change_pct": 1.26,
+        "price": 31.2635,
+        "amount": 195.45
+      },
+      {
+        "code": "BK1080",
+        "name": "新型城镇化",
+        "change_pct": 1.25,
+        "price": 10.9748,
+        "amount": 198.64
+      },
+      {
+        "code": "BK0990",
+        "name": "快递概念",
+        "change_pct": 1.25,
+        "price": 10.6552,
+        "amount": 82.65
+      },
+      {
+        "code": "BK1679",
+        "name": "2025年报扭亏",
+        "change_pct": 1.24,
+        "price": 932.26,
+        "amount": 2669.21
+      },
+      {
+        "code": "BK0623",
+        "name": "海洋经济",
+        "change_pct": 1.23,
+        "price": 33.4768,
+        "amount": 790.59
+      },
+      {
+        "code": "BK0743",
+        "name": "深证100R",
+        "change_pct": 1.22,
+        "price": 13.2435,
+        "amount": 3713.19
+      },
+      {
+        "code": "BK0847",
+        "name": "影视概念",
+        "change_pct": 1.21,
+        "price": 898.61,
+        "amount": 144.37
+      },
+      {
+        "code": "BK0596",
+        "name": "融资融券",
+        "change_pct": 1.2,
+        "price": 31.577600000000004,
+        "amount": 29135.76
+      },
+      {
+        "code": "BK0724",
+        "name": "海绵城市",
+        "change_pct": 1.2,
+        "price": 993.26,
+        "amount": 62.75
+      },
+      {
+        "code": "BK1176",
+        "name": "财税数字化",
+        "change_pct": 1.19,
+        "price": 15.6725,
+        "amount": 153.19
+      },
+      {
+        "code": "BK0506",
+        "name": "创投",
+        "change_pct": 1.19,
+        "price": 174.53889999999998,
+        "amount": 1931.52
+      },
+      {
+        "code": "BK0887",
+        "name": "鸡肉概念",
+        "change_pct": 1.19,
+        "price": 691.91,
+        "amount": 35.37
+      },
+      {
+        "code": "BK0634",
+        "name": "大数据",
+        "change_pct": 1.18,
+        "price": 51.2751,
+        "amount": 2089.04
+      },
+      {
+        "code": "BK0896",
+        "name": "白酒",
+        "change_pct": 1.17,
+        "price": 18.7639,
+        "amount": 188.91
+      },
+      {
+        "code": "BK0425",
+        "name": "工程建设",
+        "change_pct": 1.17,
+        "price": 261.1302,
+        "amount": 273.19
+      },
+      {
+        "code": "BK0909",
+        "name": "降解塑料",
+        "change_pct": 1.16,
+        "price": 20.4958,
+        "amount": 304.66
+      },
+      {
+        "code": "BK1008",
+        "name": "国资云概念",
+        "change_pct": 1.16,
+        "price": 14.4775,
+        "amount": 116.48
+      },
+      {
+        "code": "BK0996",
+        "name": "毛发医疗",
+        "change_pct": 1.16,
+        "price": 909.71,
+        "amount": 17.23
+      },
+      {
+        "code": "BK1131",
+        "name": "同步磁阻电机",
+        "change_pct": 1.15,
+        "price": 22.325300000000002,
+        "amount": 38.29
+      },
+      {
+        "code": "BK1118",
+        "name": "数据确权",
+        "change_pct": 1.13,
+        "price": 13.7937,
+        "amount": 122.78
+      },
+      {
+        "code": "BK1678",
+        "name": "2025年报预减",
+        "change_pct": 1.13,
+        "price": 927.94,
+        "amount": 1484.97
+      },
+      {
+        "code": "BK1188",
+        "name": "DeepSeek概念",
+        "change_pct": 1.13,
+        "price": 12.277899999999999,
+        "amount": 1507.98
+      },
+      {
+        "code": "BK0606",
+        "name": "油气设服",
+        "change_pct": 1.13,
+        "price": 21.765300000000003,
+        "amount": 191.19
+      },
+      {
+        "code": "BK0926",
+        "name": "湖北自贸",
+        "change_pct": 1.13,
+        "price": 25.1364,
+        "amount": 517.17
+      },
+      {
+        "code": "BK1183",
+        "name": "谷子经济",
+        "change_pct": 1.13,
+        "price": 10.299100000000001,
+        "amount": 251.57
+      },
+      {
+        "code": "BK0552",
+        "name": "机构重仓",
+        "change_pct": 1.12,
+        "price": 173.192,
+        "amount": 6620.56
+      },
+      {
+        "code": "BK0447",
+        "name": "互联网服务",
+        "change_pct": 1.12,
+        "price": 287.2878,
+        "amount": 615.76
+      },
+      {
+        "code": "BK1003",
+        "name": "抽水蓄能",
+        "change_pct": 1.12,
+        "price": 19.4235,
+        "amount": 333.18
+      },
+      {
+        "code": "BK1011",
+        "name": "环氧丙烷",
+        "change_pct": 1.12,
+        "price": 718.49,
+        "amount": 209.44
+      },
+      {
+        "code": "BK1115",
+        "name": "跨境电商",
+        "change_pct": 1.12,
+        "price": 14.5927,
+        "amount": 382.62
+      },
+      {
+        "code": "BK0699",
+        "name": "全息技术",
+        "change_pct": 1.12,
+        "price": 30.9029,
+        "amount": 137.53
+      },
+      {
+        "code": "BK0498",
+        "name": "AB股",
+        "change_pct": 1.12,
+        "price": 110.404,
+        "amount": 323.5
+      },
+      {
+        "code": "BK1197",
+        "name": "反内卷概念",
+        "change_pct": 1.11,
+        "price": 10.5956,
+        "amount": 1159.1
+      },
+      {
+        "code": "BK0579",
+        "name": "云计算",
+        "change_pct": 1.11,
+        "price": 32.8478,
+        "amount": 1262.26
+      },
+      {
+        "code": "BK0809",
+        "name": "AI智能体",
+        "change_pct": 1.1,
+        "price": 11.431500000000002,
+        "amount": 757.73
+      },
+      {
+        "code": "BK0667",
+        "name": "安防概念",
+        "change_pct": 1.1,
+        "price": 32.0048,
+        "amount": 462.24
+      },
+      {
+        "code": "BK0963",
+        "name": "商业航天",
+        "change_pct": 1.09,
+        "price": 26.47,
+        "amount": 3070.78
+      },
+      {
+        "code": "BK1022",
+        "name": "职业教育",
+        "change_pct": 1.08,
+        "price": 12.5749,
+        "amount": 166.69
+      },
+      {
+        "code": "BK0921",
+        "name": "卫星互联网",
+        "change_pct": 1.08,
+        "price": 21.346,
+        "amount": 1189.83
+      },
+      {
+        "code": "BK1047",
+        "name": "数据安全",
+        "change_pct": 1.07,
+        "price": 927.98,
+        "amount": 407.47
+      },
+      {
+        "code": "BK0800",
+        "name": "人工智能",
+        "change_pct": 1.07,
+        "price": 17.7029,
+        "amount": 4513.7
+      },
+      {
+        "code": "BK1187",
+        "name": "小红书概念",
+        "change_pct": 1.07,
+        "price": 12.113499999999998,
+        "amount": 272.17
+      },
+      {
+        "code": "BK0628",
+        "name": "智慧城市",
+        "change_pct": 1.06,
+        "price": 54.5752,
+        "amount": 1087.92
+      },
+      {
+        "code": "BK1647",
+        "name": "电网概念",
+        "change_pct": 1.05,
+        "price": 863.33,
+        "amount": 1547.59
+      },
+      {
+        "code": "BK1070",
+        "name": "土壤修复",
+        "change_pct": 1.05,
+        "price": 10.285699999999999,
+        "amount": 66.02
+      },
+      {
+        "code": "BK0556",
+        "name": "移动支付",
+        "change_pct": 1.04,
+        "price": 116.1908,
+        "amount": 440.35
+      },
+      {
+        "code": "BK1104",
+        "name": "信创",
+        "change_pct": 1.04,
+        "price": 17.5704,
+        "amount": 1706.51
+      },
+      {
+        "code": "BK0567",
+        "name": "股权激励",
+        "change_pct": 1.03,
+        "price": 37.0118,
+        "amount": 1901.99
+      },
+      {
+        "code": "BK0636",
+        "name": "B股",
+        "change_pct": 1.03,
+        "price": 868.23,
+        "amount": 1.1
+      },
+      {
+        "code": "BK1110",
+        "name": "Web3.0",
+        "change_pct": 1.02,
+        "price": 16.7954,
+        "amount": 226.21
+      },
+      {
+        "code": "BK0953",
+        "name": "鸿蒙概念",
+        "change_pct": 1.02,
+        "price": 14.613499999999998,
+        "amount": 655.4
+      },
+      {
+        "code": "BK0960",
+        "name": "无线充电",
+        "change_pct": 1.02,
+        "price": 36.4995,
+        "amount": 619.62
+      },
+      {
+        "code": "BK1126",
+        "name": "ChatGPT概念",
+        "change_pct": 1.02,
+        "price": 18.9982,
+        "amount": 488.02
+      },
+      {
+        "code": "BK1061",
+        "name": "数字经济",
+        "change_pct": 1.01,
+        "price": 12.163900000000002,
+        "amount": 609.84
+      },
+      {
+        "code": "BK0566",
+        "name": "滨海新区",
+        "change_pct": 1.01,
+        "price": 104.39209999999999,
+        "amount": 91.48
+      },
+      {
+        "code": "BK0581",
+        "name": "智能电网",
+        "change_pct": 1.01,
+        "price": 21.6893,
+        "amount": 1090.45
+      },
+      {
+        "code": "BK0597",
+        "name": "水利建设",
+        "change_pct": 1,
+        "price": 20.381600000000002,
+        "amount": 463
+      },
+      {
+        "code": "BK0845",
+        "name": "百度概念",
+        "change_pct": 1,
+        "price": 16.5864,
+        "amount": 1045.01
+      },
+      {
+        "code": "BK1163",
+        "name": "可控核聚变",
+        "change_pct": 0.99,
+        "price": 25.257800000000003,
+        "amount": 1177.17
+      },
+      {
+        "code": "BK0835",
+        "name": "独角兽",
+        "change_pct": 0.99,
+        "price": 20.9375,
+        "amount": 1181.31
+      },
+      {
+        "code": "BK1169",
+        "name": "Kimi概念",
+        "change_pct": 0.99,
+        "price": 10.3015,
+        "amount": 106.32
+      },
+      {
+        "code": "BK0861",
+        "name": "数字孪生",
+        "change_pct": 0.98,
+        "price": 16.2472,
+        "amount": 375.61
+      },
+      {
+        "code": "BK0864",
+        "name": "氢能源",
+        "change_pct": 0.98,
+        "price": 15.476700000000001,
+        "amount": 1890.86
+      },
+      {
+        "code": "BK1649",
+        "name": "油气资源",
+        "change_pct": 0.97,
+        "price": 839.21,
+        "amount": 607.33
+      },
+      {
+        "code": "BK0708",
+        "name": "体育产业",
+        "change_pct": 0.97,
+        "price": 13.811900000000001,
+        "amount": 161.4
+      },
+      {
+        "code": "BK1132",
+        "name": "MLOps概念",
+        "change_pct": 0.97,
+        "price": 10.1228,
+        "amount": 44.65
+      },
+      {
+        "code": "BK1630",
+        "name": "昨日首板",
+        "change_pct": 0.96,
+        "price": 30.6348,
+        "amount": 1285.26
+      },
+      {
+        "code": "BK0494",
+        "name": "节能环保",
+        "change_pct": 0.96,
+        "price": 153.4044,
+        "amount": 1979.18
+      },
+      {
+        "code": "BK0595",
+        "name": "风能",
+        "change_pct": 0.95,
+        "price": 28.0583,
+        "amount": 2123.26
+      },
+      {
+        "code": "BK0982",
+        "name": "电子车牌",
+        "change_pct": 0.94,
+        "price": 12.956700000000001,
+        "amount": 31.8
+      },
+      {
+        "code": "BK1013",
+        "name": "华为欧拉",
+        "change_pct": 0.93,
+        "price": 11.2104,
+        "amount": 78.93
+      },
+      {
+        "code": "BK0610",
+        "name": "央视50_",
+        "change_pct": 0.93,
+        "price": 24.0537,
+        "amount": 1193.12
+      },
+      {
+        "code": "BK0592",
+        "name": "铁路基建",
+        "change_pct": 0.93,
+        "price": 27.3558,
+        "amount": 588.95
+      },
+      {
+        "code": "BK1182",
+        "name": "智谱AI概念",
+        "change_pct": 0.92,
+        "price": 11.3676,
+        "amount": 185.85
+      },
+      {
+        "code": "BK0742",
+        "name": "创业板综",
+        "change_pct": 0.91,
+        "price": 19.6918,
+        "amount": 8057.4
+      },
+      {
+        "code": "BK0493",
+        "name": "新能源",
+        "change_pct": 0.9,
+        "price": 188.21849999999998,
+        "amount": 1530.41
+      },
+      {
+        "code": "BK0638",
+        "name": "创业成份",
+        "change_pct": 0.9,
+        "price": 24.444699999999997,
+        "amount": 3472.62
+      },
+      {
+        "code": "BK1172",
+        "name": "AI语料",
+        "change_pct": 0.88,
+        "price": 995.33,
+        "amount": 169.85
+      },
+      {
+        "code": "BK0920",
+        "name": "车联网(车路云)",
+        "change_pct": 0.88,
+        "price": 14.6906,
+        "amount": 1179.69
+      },
+      {
+        "code": "BK0601",
+        "name": "海工装备",
+        "change_pct": 0.87,
+        "price": 23.685,
+        "amount": 924.06
+      },
+      {
+        "code": "BK1153",
+        "name": "多模态AI",
+        "change_pct": 0.86,
+        "price": 12.4374,
+        "amount": 326.13
+      },
+      {
+        "code": "BK0959",
+        "name": "数字阅读",
+        "change_pct": 0.86,
+        "price": 15.5962,
+        "amount": 57.13
+      },
+      {
+        "code": "BK0975",
+        "name": "磁悬浮概念",
+        "change_pct": 0.85,
+        "price": 22.5266,
+        "amount": 238.21
+      },
+      {
+        "code": "BK0918",
+        "name": "特高压",
+        "change_pct": 0.85,
+        "price": 29.0379,
+        "amount": 1014.27
+      },
+      {
+        "code": "BK0662",
+        "name": "在线教育",
+        "change_pct": 0.85,
+        "price": 19.352899999999998,
+        "amount": 502.85
+      },
+      {
+        "code": "BK1667",
+        "name": "小盘成长",
+        "change_pct": 0.84,
+        "price": 10.406300000000002,
+        "amount": 3574.09
+      },
+      {
+        "code": "BK0989",
+        "name": "储能概念",
+        "change_pct": 0.84,
+        "price": 24.133000000000003,
+        "amount": 3344.44
+      },
+      {
+        "code": "BK0882",
+        "name": "猪肉概念",
+        "change_pct": 0.83,
+        "price": 10.9302,
+        "amount": 99.88
+      },
+      {
+        "code": "BK0958",
+        "name": "虚拟电厂",
+        "change_pct": 0.82,
+        "price": 22.4048,
+        "amount": 280.47
+      },
+      {
+        "code": "BK1050",
+        "name": "昨日涨停_含一字",
+        "change_pct": 0.82,
+        "price": 674.7658,
+        "amount": 1678.66
+      },
+      {
+        "code": "BK0706",
+        "name": "人脑工程",
+        "change_pct": 0.81,
+        "price": 51.7129,
+        "amount": 252.73
+      },
+      {
+        "code": "BK0984",
+        "name": "华为汽车",
+        "change_pct": 0.81,
+        "price": 23.5609,
+        "amount": 591.85
+      },
+      {
+        "code": "BK0811",
+        "name": "超级品牌",
+        "change_pct": 0.81,
+        "price": 21.2969,
+        "amount": 311.57
+      },
+      {
+        "code": "BK0535",
+        "name": "QFII重仓",
+        "change_pct": 0.8,
+        "price": 238.67430000000002,
+        "amount": 2915.43
+      },
+      {
+        "code": "BK0511",
+        "name": "ST股",
+        "change_pct": 0.79,
+        "price": 65.2656,
+        "amount": 147.76
+      },
+      {
+        "code": "BK0966",
+        "name": "碳交易",
+        "change_pct": 0.79,
+        "price": 18.930799999999998,
+        "amount": 666.84
+      },
+      {
+        "code": "BK0900",
+        "name": "新能源车",
+        "change_pct": 0.78,
+        "price": 25.859099999999998,
+        "amount": 5651.91
+      },
+      {
+        "code": "BK0885",
+        "name": "VPN",
+        "change_pct": 0.77,
+        "price": 10.9623,
+        "amount": 88.21
+      },
+      {
+        "code": "BK0898",
+        "name": "胎压监测",
+        "change_pct": 0.76,
+        "price": 22.769000000000002,
+        "amount": 101.74
+      },
+      {
+        "code": "BK0644",
+        "name": "特斯拉概念",
+        "change_pct": 0.76,
+        "price": 72.7266,
+        "amount": 2479.5
+      },
+      {
+        "code": "BK1111",
+        "name": "AIGC概念",
+        "change_pct": 0.76,
+        "price": 19.3908,
+        "amount": 776.67
+      },
+      {
+        "code": "BK0523",
+        "name": "新材料",
+        "change_pct": 0.74,
+        "price": 422.86870000000005,
+        "amount": 4600.58
+      },
+      {
+        "code": "BK0945",
+        "name": "装配建筑",
+        "change_pct": 0.74,
+        "price": 10.5166,
+        "amount": 192.99
+      },
+      {
+        "code": "BK0802",
+        "name": "无人驾驶",
+        "change_pct": 0.74,
+        "price": 21.722800000000003,
+        "amount": 2150.61
+      },
+      {
+        "code": "BK0509",
+        "name": "网络游戏",
+        "change_pct": 0.74,
+        "price": 127.7136,
+        "amount": 439.54
+      },
+      {
+        "code": "BK0679",
+        "name": "超导概念",
+        "change_pct": 0.74,
+        "price": 71.2543,
+        "amount": 378.39
+      },
+      {
+        "code": "BK0897",
+        "name": "IPv6",
+        "change_pct": 0.73,
+        "price": 13.1055,
+        "amount": 320.19
+      },
+      {
+        "code": "BK0843",
+        "name": "天然气",
+        "change_pct": 0.73,
+        "price": 17.221700000000002,
+        "amount": 528.38
+      },
+      {
+        "code": "BK0839",
+        "name": "知识产权",
+        "change_pct": 0.73,
+        "price": 19.8617,
+        "amount": 133.95
+      },
+      {
+        "code": "BK0967",
+        "name": "水产概念",
+        "change_pct": 0.72,
+        "price": 821.05,
+        "amount": 35.18
+      },
+      {
+        "code": "BK1090",
+        "name": "机器人概念",
+        "change_pct": 0.71,
+        "price": 21.0508,
+        "amount": 4908.62
+      },
+      {
+        "code": "BK1155",
+        "name": "小米汽车",
+        "change_pct": 0.7,
+        "price": 17.2196,
+        "amount": 1059.74
+      },
+      {
+        "code": "BK0549",
+        "name": "深圳特区",
+        "change_pct": 0.7,
+        "price": 402.3356,
+        "amount": 2655.45
+      },
+      {
+        "code": "BK0700",
+        "name": "充电桩",
+        "change_pct": 0.7,
+        "price": 32.186,
+        "amount": 1887.44
+      },
+      {
+        "code": "BK1665",
+        "name": "大盘成长",
+        "change_pct": 0.69,
+        "price": 10.854800000000001,
+        "amount": 4766.58
+      },
+      {
+        "code": "BK0832",
+        "name": "工业互联",
+        "change_pct": 0.69,
+        "price": 25.9577,
+        "amount": 1635.6
+      },
+      {
+        "code": "BK0682",
+        "name": "燃料电池概念",
+        "change_pct": 0.67,
+        "price": 44.068599999999996,
+        "amount": 1137.75
+      },
+      {
+        "code": "BK1113",
+        "name": "复合集流体",
+        "change_pct": 0.66,
+        "price": 22.311,
+        "amount": 520.5
+      },
+      {
+        "code": "BK0932",
+        "name": "尾气治理",
+        "change_pct": 0.66,
+        "price": 21.1963,
+        "amount": 311.49
+      },
+      {
+        "code": "BK1069",
+        "name": "智慧灯杆",
+        "change_pct": 0.66,
+        "price": 17.1091,
+        "amount": 73.1
+      },
+      {
+        "code": "BK0617",
+        "name": "石墨烯",
+        "change_pct": 0.65,
+        "price": 28.8423,
+        "amount": 668.34
+      },
+      {
+        "code": "BK0925",
+        "name": "北交所概念",
+        "change_pct": 0.64,
+        "price": 21.9271,
+        "amount": 134.65
+      },
+      {
+        "code": "BK0936",
+        "name": "长寿药",
+        "change_pct": 0.64,
+        "price": 10.3998,
+        "amount": 38.28
+      },
+      {
+        "code": "BK0923",
+        "name": "抖音概念(字节概念)",
+        "change_pct": 0.63,
+        "price": 14.6275,
+        "amount": 710.76
+      },
+      {
+        "code": "BK0972",
+        "name": "快手概念",
+        "change_pct": 0.63,
+        "price": 15.098199999999999,
+        "amount": 149.2
+      },
+      {
+        "code": "BK0957",
+        "name": "拼多多概念",
+        "change_pct": 0.61,
+        "price": 15.873299999999999,
+        "amount": 54.92
+      },
+      {
+        "code": "BK0655",
+        "name": "网络安全",
+        "change_pct": 0.61,
+        "price": 43.2231,
+        "amount": 1018.3
+      },
+      {
+        "code": "BK0619",
+        "name": "3D打印",
+        "change_pct": 0.6,
+        "price": 89.6917,
+        "amount": 967.38
+      },
+      {
+        "code": "BK0803",
+        "name": "股权转让",
+        "change_pct": 0.59,
+        "price": 742.44,
+        "amount": 66.84
+      },
+      {
+        "code": "BK0875",
+        "name": "ETC",
+        "change_pct": 0.59,
+        "price": 17.677599999999998,
+        "amount": 171.7
+      },
+      {
+        "code": "BK1005",
+        "name": "专精特新",
+        "change_pct": 0.58,
+        "price": 17.2926,
+        "amount": 6401.69
+      },
+      {
+        "code": "BK1144",
+        "name": "高压快充",
+        "change_pct": 0.57,
+        "price": 15.464300000000001,
+        "amount": 471.61
+      },
+      {
+        "code": "BK1116",
+        "name": "抗菌面料",
+        "change_pct": 0.57,
+        "price": 16.154,
+        "amount": 90.56
+      },
+      {
+        "code": "BK1168",
+        "name": "铜缆高速连接",
+        "change_pct": 0.57,
+        "price": 30.1829,
+        "amount": 744.38
+      },
+      {
+        "code": "BK1055",
+        "name": "虚拟数字人",
+        "change_pct": 0.56,
+        "price": 12.694600000000001,
+        "amount": 507.35
+      },
+      {
+        "code": "BK1642",
+        "name": "微利股",
+        "change_pct": 0.54,
+        "price": 851.6,
+        "amount": 327.5
+      },
+      {
+        "code": "BK0854",
+        "name": "华为概念",
+        "change_pct": 0.53,
+        "price": 44.188900000000004,
+        "amount": 7764.33
+      },
+      {
+        "code": "BK0954",
+        "name": "盲盒经济",
+        "change_pct": 0.52,
+        "price": 13.156099999999999,
+        "amount": 28.95
+      },
+      {
+        "code": "BK0860",
+        "name": "边缘计算",
+        "change_pct": 0.49,
+        "price": 21.3085,
+        "amount": 998.25
+      },
+      {
+        "code": "BK1075",
+        "name": "电子身份证",
+        "change_pct": 0.48,
+        "price": 10.4009,
+        "amount": 83.32
+      },
+      {
+        "code": "BK1089",
+        "name": "汽车热管理",
+        "change_pct": 0.46,
+        "price": 20.796100000000003,
+        "amount": 348.43
+      },
+      {
+        "code": "BK0961",
+        "name": "有机硅概念",
+        "change_pct": 0.44,
+        "price": 19.6053,
+        "amount": 289.31
+      },
+      {
+        "code": "BK1088",
+        "name": "F5G概念",
+        "change_pct": 0.42,
+        "price": 51.0433,
+        "amount": 1177.99
+      },
+      {
+        "code": "BK1049",
+        "name": "EDR概念",
+        "change_pct": 0.41,
+        "price": 16.6663,
+        "amount": 110.03
+      },
+      {
+        "code": "BK1151",
+        "name": "短剧互动游戏",
+        "change_pct": 0.4,
+        "price": 11.6298,
+        "amount": 191.36
+      },
+      {
+        "code": "BK0536",
+        "name": "基金重仓",
+        "change_pct": 0.4,
+        "price": 149.982,
+        "amount": 4292.94
+      },
+      {
+        "code": "BK0671",
+        "name": "彩票概念",
+        "change_pct": 0.39,
+        "price": 27.1904,
+        "amount": 56.85
+      },
+      {
+        "code": "BK1009",
+        "name": "元宇宙概念",
+        "change_pct": 0.39,
+        "price": 21.4827,
+        "amount": 1000.25
+      },
+      {
+        "code": "BK1124",
+        "name": "毫米波概念",
+        "change_pct": 0.36,
+        "price": 23.6135,
+        "amount": 724.93
+      },
+      {
+        "code": "BK0922",
+        "name": "数据中心",
+        "change_pct": 0.36,
+        "price": 21.266199999999998,
+        "amount": 2546.2
+      },
+      {
+        "code": "BK0680",
+        "name": "智能家居",
+        "change_pct": 0.35,
+        "price": 30.2929,
+        "amount": 1061.42
+      },
+      {
+        "code": "BK1150",
+        "name": "新型工业化",
+        "change_pct": 0.35,
+        "price": 15.333699999999999,
+        "amount": 660.93
+      },
+      {
+        "code": "BK0588",
+        "name": "光伏概念",
+        "change_pct": 0.34,
+        "price": 42.89810000000001,
+        "amount": 3353.85
+      },
+      {
+        "code": "BK0710",
+        "name": "量子科技",
+        "change_pct": 0.33,
+        "price": 34.8078,
+        "amount": 1028.95
+      },
+      {
+        "code": "BK1064",
+        "name": "东数西算",
+        "change_pct": 0.32,
+        "price": 18.2364,
+        "amount": 633.24
+      },
+      {
+        "code": "BK1681",
+        "name": "2026一季报预减",
+        "change_pct": 0.32,
+        "price": 957.77,
+        "amount": 74.15
+      },
+      {
+        "code": "BK0815",
+        "name": "昨日涨停",
+        "change_pct": 0.31,
+        "price": 970.5846,
+        "amount": 1553.87
+      },
+      {
+        "code": "BK0554",
+        "name": "物联网",
+        "change_pct": 0.3,
+        "price": 166.5197,
+        "amount": 3388.61
+      },
+      {
+        "code": "BK1125",
+        "name": "电子后视镜",
+        "change_pct": 0.29,
+        "price": 16.5835,
+        "amount": 92.59
+      },
+      {
+        "code": "BK0853",
+        "name": "电子竞技",
+        "change_pct": 0.26,
+        "price": 13.509300000000001,
+        "amount": 409.34
+      },
+      {
+        "code": "BK0970",
+        "name": "生物识别",
+        "change_pct": 0.24,
+        "price": 17.401400000000002,
+        "amount": 431.5
+      },
+      {
+        "code": "BK1184",
+        "name": "人形机器人",
+        "change_pct": 0.23,
+        "price": 18.2431,
+        "amount": 2061.79
+      },
+      {
+        "code": "BK1682",
+        "name": "2026一季报扭亏",
+        "change_pct": 0.23,
+        "price": 11.779200000000001,
+        "amount": 241.25
+      },
+      {
+        "code": "BK0985",
+        "name": "换电概念",
+        "change_pct": 0.21,
+        "price": 16.5621,
+        "amount": 190.01
+      },
+      {
+        "code": "BK1134",
+        "name": "算力概念",
+        "change_pct": 0.16,
+        "price": 19.541700000000002,
+        "amount": 3120.7
+      },
+      {
+        "code": "BK1119",
+        "name": "PLC概念",
+        "change_pct": 0.16,
+        "price": 15.8414,
+        "amount": 104.51
+      },
+      {
+        "code": "BK0880",
+        "name": "UWB概念",
+        "change_pct": 0.14,
+        "price": 18.7471,
+        "amount": 349.88
+      },
+      {
+        "code": "BK0656",
+        "name": "智能电视",
+        "change_pct": 0.13,
+        "price": 12.6438,
+        "amount": 71.21
+      },
+      {
+        "code": "BK1628",
+        "name": "2025三季报扭亏",
+        "change_pct": 0.08,
+        "price": 847.36,
+        "amount": 100.08
+      },
+      {
+        "code": "BK1012",
+        "name": "PVDF概念",
+        "change_pct": 0.08,
+        "price": 13.9926,
+        "amount": 319.31
+      },
+      {
+        "code": "BK1129",
+        "name": "数字水印",
+        "change_pct": 0.08,
+        "price": 987.67,
+        "amount": 62.88
+      },
+      {
+        "code": "BK0801",
+        "name": "增强现实",
+        "change_pct": 0.07,
+        "price": 14.8501,
+        "amount": 388.69
+      },
+      {
+        "code": "BK0865",
+        "name": "电子烟",
+        "change_pct": 0.07,
+        "price": 28.3204,
+        "amount": 712.37
+      },
+      {
+        "code": "BK0859",
+        "name": "超清视频",
+        "change_pct": 0.05,
+        "price": 21.9938,
+        "amount": 1183.04
+      },
+      {
+        "code": "BK0722",
+        "name": "虚拟现实",
+        "change_pct": 0.03,
+        "price": 12.984300000000001,
+        "amount": 1697.15
+      },
+      {
+        "code": "BK1138",
+        "name": "液冷概念",
+        "change_pct": 0.02,
+        "price": 21.8659,
+        "amount": 2453.47
+      },
+      {
+        "code": "BK1716",
+        "name": "反转股",
+        "change_pct": 0.02,
+        "price": 886.99,
+        "amount": 45.07
+      },
+      {
+        "code": "BK0877",
+        "name": "PCB",
+        "change_pct": 0.01,
+        "price": 44.3804,
+        "amount": 3001.71
+      },
+      {
+        "code": "BK1102",
+        "name": "空气能热泵",
+        "change_pct": 0.01,
+        "price": 16.4888,
+        "amount": 221.83
+      },
+      {
+        "code": "BK0714",
+        "name": "5G概念",
+        "change_pct": -0.03,
+        "price": 21.7683,
+        "amount": 6298.42
+      },
+      {
+        "code": "BK1004",
+        "name": "工业母机",
+        "change_pct": -0.04,
+        "price": 23.4667,
+        "amount": 757.89
+      },
+      {
+        "code": "BK0905",
+        "name": "传感器",
+        "change_pct": -0.05,
+        "price": 22.8119,
+        "amount": 1067.23
+      },
+      {
+        "code": "BK0893",
+        "name": "无线耳机",
+        "change_pct": -0.08,
+        "price": 26.005300000000002,
+        "amount": 1376
+      },
+      {
+        "code": "BK1097",
+        "name": "TOPCon电池",
+        "change_pct": -0.12,
+        "price": 973.43,
+        "amount": 354.5
+      },
+      {
+        "code": "BK1164",
+        "name": "AIPC",
+        "change_pct": -0.14,
+        "price": 27.305799999999998,
+        "amount": 1143.79
+      },
+      {
+        "code": "BK0501",
+        "name": "次新股",
+        "change_pct": -0.15,
+        "price": 263.10130000000004,
+        "amount": 538.55
+      },
+      {
+        "code": "BK1633",
+        "name": "昨日高振幅",
+        "change_pct": -0.16,
+        "price": 954.14,
+        "amount": 9296.92
+      },
+      {
+        "code": "BK0964",
+        "name": "6G概念",
+        "change_pct": -0.17,
+        "price": 24.3254,
+        "amount": 902.2
+      },
+      {
+        "code": "BK1178",
+        "name": "AI眼镜",
+        "change_pct": -0.17,
+        "price": 23.960700000000003,
+        "amount": 1731.94
+      },
+      {
+        "code": "BK0833",
+        "name": "小米概念",
+        "change_pct": -0.22,
+        "price": 25.511999999999997,
+        "amount": 2333.7
+      },
+      {
+        "code": "BK0855",
+        "name": "纳米银",
+        "change_pct": -0.22,
+        "price": 39.6877,
+        "amount": 134.18
+      },
+      {
+        "code": "BK0703",
+        "name": "超级电容",
+        "change_pct": -0.24,
+        "price": 59.6013,
+        "amount": 701.06
+      },
+      {
+        "code": "BK1638",
+        "name": "最近多板",
+        "change_pct": -0.27,
+        "price": 17.6905,
+        "amount": 2498.58
+      },
+      {
+        "code": "BK0946",
+        "name": "EDA概念",
+        "change_pct": -0.27,
+        "price": 15.7119,
+        "amount": 97.44
+      },
+      {
+        "code": "BK1051",
+        "name": "昨日连板_含一字",
+        "change_pct": -0.29,
+        "price": 181.49259999999998,
+        "amount": 330.91
+      },
+      {
+        "code": "BK1650",
+        "name": "通信技术",
+        "change_pct": -0.3,
+        "price": 11.0717,
+        "amount": 7359.95
+      },
+      {
+        "code": "BK1100",
+        "name": "减速器",
+        "change_pct": -0.32,
+        "price": 18.9235,
+        "amount": 514.83
+      },
+      {
+        "code": "BK0998",
+        "name": "机器视觉",
+        "change_pct": -0.34,
+        "price": 20.9177,
+        "amount": 432.6
+      },
+      {
+        "code": "BK1162",
+        "name": "AI手机",
+        "change_pct": -0.34,
+        "price": 19.8298,
+        "amount": 679.91
+      },
+      {
+        "code": "BK1127",
+        "name": "AI芯片",
+        "change_pct": -0.35,
+        "price": 18.8929,
+        "amount": 830.18
+      },
+      {
+        "code": "BK1094",
+        "name": "钙钛矿电池",
+        "change_pct": -0.37,
+        "price": 11.0321,
+        "amount": 475.38
+      },
+      {
+        "code": "BK1076",
+        "name": "建筑节能",
+        "change_pct": -0.38,
+        "price": 11.253,
+        "amount": 187.61
+      },
+      {
+        "code": "BK1161",
+        "name": "英伟达概念",
+        "change_pct": -0.39,
+        "price": 22.870500000000003,
+        "amount": 1085.89
+      },
+      {
+        "code": "BK0915",
+        "name": "WiFi",
+        "change_pct": -0.42,
+        "price": 15.8126,
+        "amount": 339.03
+      },
+      {
+        "code": "BK0891",
+        "name": "国产芯片",
+        "change_pct": -0.45,
+        "price": 49.560500000000005,
+        "amount": 6971.87
+      },
+      {
+        "code": "BK1059",
+        "name": "百元股",
+        "change_pct": -0.45,
+        "price": 10.460899999999999,
+        "amount": 8754.23
+      },
+      {
+        "code": "BK0666",
+        "name": "苹果概念",
+        "change_pct": -0.5,
+        "price": 58.26390000000001,
+        "amount": 2177.76
+      },
+      {
+        "code": "BK1646",
+        "name": "消费电子概念",
+        "change_pct": -0.52,
+        "price": 10.9124,
+        "amount": 2794.64
+      },
+      {
+        "code": "BK0977",
+        "name": "碳化硅",
+        "change_pct": -0.55,
+        "price": 22.6573,
+        "amount": 774.52
+      },
+      {
+        "code": "BK0580",
+        "name": "LED概念",
+        "change_pct": -0.59,
+        "price": 51.278800000000004,
+        "amount": 1290.54
+      },
+      {
+        "code": "BK1713",
+        "name": "科技风格",
+        "change_pct": -0.6,
+        "price": 981.26,
+        "amount": 7078.37
+      },
+      {
+        "code": "BK0690",
+        "name": "氟化工概念",
+        "change_pct": -0.6,
+        "price": 63.0612,
+        "amount": 884.81
+      },
+      {
+        "code": "BK1180",
+        "name": "华为海思",
+        "change_pct": -0.62,
+        "price": 20.738000000000003,
+        "amount": 597.62
+      },
+      {
+        "code": "BK1637",
+        "name": "东方财富热股",
+        "change_pct": -0.67,
+        "price": 21.789499999999997,
+        "amount": 5775.72
+      },
+      {
+        "code": "BK0685",
+        "name": "举牌",
+        "change_pct": -0.67,
+        "price": 27.5352,
+        "amount": 8.32
+      },
+      {
+        "code": "BK1145",
+        "name": "机器人执行器",
+        "change_pct": -0.7,
+        "price": 21.2918,
+        "amount": 375.07
+      },
+      {
+        "code": "BK1002",
+        "name": "激光雷达",
+        "change_pct": -0.71,
+        "price": 28.182399999999998,
+        "amount": 608.47
+      },
+      {
+        "code": "BK1148",
+        "name": "BC电池",
+        "change_pct": -0.75,
+        "price": 13.7369,
+        "amount": 270.48
+      },
+      {
+        "code": "BK1141",
+        "name": "混合现实",
+        "change_pct": -0.76,
+        "price": 20.3946,
+        "amount": 723.66
+      },
+      {
+        "code": "BK0916",
+        "name": "氮化镓",
+        "change_pct": -0.77,
+        "price": 20.429100000000002,
+        "amount": 770.07
+      },
+      {
+        "code": "BK0817",
+        "name": "昨日触板",
+        "change_pct": -0.8,
+        "price": 22.29,
+        "amount": 702.79
+      },
+      {
+        "code": "BK1199",
+        "name": "2025三季报预减",
+        "change_pct": -0.84,
+        "price": 13.087200000000001,
+        "amount": 39.76
+      },
+      {
+        "code": "BK1631",
+        "name": "昨日炸板",
+        "change_pct": -0.9,
+        "price": 726.84,
+        "amount": 560.76
+      },
+      {
+        "code": "BK0952",
+        "name": "第三代半导体",
+        "change_pct": -0.91,
+        "price": 26.0083,
+        "amount": 1844.41
+      },
+      {
+        "code": "BK0641",
+        "name": "智能穿戴",
+        "change_pct": -0.92,
+        "price": 43.065,
+        "amount": 2210.36
+      },
+      {
+        "code": "BK1160",
+        "name": "柔性屏(折叠屏)",
+        "change_pct": -0.94,
+        "price": 24.0576,
+        "amount": 1356.2
+      },
+      {
+        "code": "BK0908",
+        "name": "HJT电池",
+        "change_pct": -0.98,
+        "price": 31.0775,
+        "amount": 375.32
+      },
+      {
+        "code": "BK1136",
+        "name": "光通信模块",
+        "change_pct": -1.06,
+        "price": 42.3063,
+        "amount": 3595.95
+      },
+      {
+        "code": "BK1082",
+        "name": "噪声防治",
+        "change_pct": -1.11,
+        "price": 18.1395,
+        "amount": 23.83
+      },
+      {
+        "code": "BK0969",
+        "name": "汽车芯片",
+        "change_pct": -1.12,
+        "price": 16.4334,
+        "amount": 1344
+      },
+      {
+        "code": "BK1651",
+        "name": "显示技术",
+        "change_pct": -1.13,
+        "price": 10.1308,
+        "amount": 633.18
+      },
+      {
+        "code": "BK1177",
+        "name": "荣耀概念",
+        "change_pct": -1.21,
+        "price": 22.971700000000002,
+        "amount": 739.16
+      },
+      {
+        "code": "BK0674",
+        "name": "蓝宝石",
+        "change_pct": -1.28,
+        "price": 45.2066,
+        "amount": 595.33
+      },
+      {
+        "code": "BK0917",
+        "name": "半导体概念",
+        "change_pct": -1.28,
+        "price": 30.227800000000002,
+        "amount": 9232.1
+      },
+      {
+        "code": "BK0902",
+        "name": "MiniLED",
+        "change_pct": -1.3,
+        "price": 26.7573,
+        "amount": 1014.86
+      },
+      {
+        "code": "BK0840",
+        "name": "OLED",
+        "change_pct": -1.32,
+        "price": 45.0292,
+        "amount": 2982.12
+      },
+      {
+        "code": "BK1128",
+        "name": "CPO概念",
+        "change_pct": -1.37,
+        "price": 93.0811,
+        "amount": 3093.45
+      },
+      {
+        "code": "BK1142",
+        "name": "裸眼3D",
+        "change_pct": -1.39,
+        "price": 13.5976,
+        "amount": 308.04
+      },
+      {
+        "code": "BK1057",
+        "name": "电子纸概念",
+        "change_pct": -1.52,
+        "price": 11.3345,
+        "amount": 290.51
+      },
+      {
+        "code": "BK1137",
+        "name": "存储芯片",
+        "change_pct": -1.53,
+        "price": 30.3105,
+        "amount": 3872.43
+      },
+      {
+        "code": "BK1048",
+        "name": "IGBT概念",
+        "change_pct": -1.57,
+        "price": 10.9554,
+        "amount": 663.49
+      },
+      {
+        "code": "BK1715",
+        "name": "趋势股",
+        "change_pct": -1.61,
+        "price": 958.84,
+        "amount": 2929.45
+      },
+      {
+        "code": "BK0881",
+        "name": "3D玻璃",
+        "change_pct": -1.64,
+        "price": 17.9604,
+        "amount": 359.55
+      },
+      {
+        "code": "BK0948",
+        "name": "MicroLED",
+        "change_pct": -1.65,
+        "price": 15.018099999999999,
+        "amount": 574.3
+      },
+      {
+        "code": "BK1674",
+        "name": "近期新高",
+        "change_pct": -1.67,
+        "price": 12.926400000000001,
+        "amount": 2154.55
+      },
+      {
+        "code": "BK1660",
+        "name": "光纤概念",
+        "change_pct": -1.73,
+        "price": 12.9296,
+        "amount": 2469.01
+      },
+      {
+        "code": "BK1676",
+        "name": "百日新高",
+        "change_pct": -1.81,
+        "price": 13.1823,
+        "amount": 1985.59
+      },
+      {
+        "code": "BK1121",
+        "name": "第四代半导体",
+        "change_pct": -1.84,
+        "price": 21.4319,
+        "amount": 109.85
+      },
+      {
+        "code": "BK1007",
+        "name": "植物照明",
+        "change_pct": -1.87,
+        "price": 12.536900000000001,
+        "amount": 140.33
+      },
+      {
+        "code": "BK1717",
+        "name": "题材股",
+        "change_pct": -1.9,
+        "price": 10.0714,
+        "amount": 3489.78
+      },
+      {
+        "code": "BK0884",
+        "name": "光刻机(胶)",
+        "change_pct": -2.02,
+        "price": 52.31399999999999,
+        "amount": 1715.07
+      },
+      {
+        "code": "BK0935",
+        "name": "中芯概念",
+        "change_pct": -2.41,
+        "price": 26.873800000000003,
+        "amount": 2509.36
+      },
+      {
+        "code": "BK0901",
+        "name": "3D摄像头",
+        "change_pct": -2.42,
+        "price": 18.5699,
+        "amount": 224.49
+      },
+      {
+        "code": "BK1152",
+        "name": "高带宽内存",
+        "change_pct": -2.51,
+        "price": 27.096,
+        "amount": 1213.79
+      },
+      {
+        "code": "BK1632",
+        "name": "昨日高换手",
+        "change_pct": -2.52,
+        "price": 697.07,
+        "amount": 1907.55
+      },
+      {
+        "code": "BK0816",
+        "name": "昨日连板",
+        "change_pct": -2.58,
+        "price": 143.4818,
+        "amount": 283.9
+      },
+      {
+        "code": "BK1675",
+        "name": "历史新高",
+        "change_pct": -2.64,
+        "price": 15.166400000000001,
+        "amount": 1705.47
+      },
+      {
+        "code": "BK0976",
+        "name": "被动元件概念",
+        "change_pct": -2.82,
+        "price": 27.0303,
+        "amount": 772.77
+      },
+      {
+        "code": "BK0947",
+        "name": "屏下摄像",
+        "change_pct": -3.07,
+        "price": 943.42,
+        "amount": 344.84
+      },
+      {
+        "code": "BK1101",
+        "name": "先进封装",
+        "change_pct": -3.36,
+        "price": 35.983000000000004,
+        "amount": 1356.06
+      },
+      {
+        "code": "BK0981",
+        "name": "工业气体",
+        "change_pct": -3.87,
+        "price": 28.9448,
+        "amount": 610.23
+      },
+      {
+        "code": "BK1175",
+        "name": "玻璃基板",
+        "change_pct": -4.07,
+        "price": 29.7936,
+        "amount": 1059.77
+      },
+      {
+        "code": "BK0949",
+        "name": "氦气概念",
+        "change_pct": -4.49,
+        "price": 30.171100000000003,
+        "amount": 202.81
+      },
+      {
+        "code": "BK0890",
+        "name": "MLCC",
+        "change_pct": -5.47,
+        "price": 55.582,
+        "amount": 962.56
+      }
+    ],
+    "top": [
+      {
+        "code": "BK1645",
+        "name": "昨日打二板以上表现",
+        "change_pct": 5.8,
+        "price": 42.257200000000005,
+        "amount": 183.47
+      },
+      {
+        "code": "BK0547",
+        "name": "黄金概念",
+        "change_pct": 4.51,
+        "price": 195.05700000000002,
+        "amount": 857.92
+      },
+      {
+        "code": "BK0480",
+        "name": "航天航空",
+        "change_pct": 4.42,
+        "price": 575.4583,
+        "amount": 396.23
+      },
+      {
+        "code": "BK0625",
+        "name": "通用航空",
+        "change_pct": 4.15,
+        "price": 56.677299999999995,
+        "amount": 248.58
+      },
+      {
+        "code": "BK0711",
+        "name": "券商概念",
+        "change_pct": 3.99,
+        "price": 10.3071,
+        "amount": 623.2
+      },
+      {
+        "code": "BK1107",
+        "name": "科创板做市商",
+        "change_pct": 3.59,
+        "price": 13.869100000000001,
+        "amount": 246.24
+      },
+      {
+        "code": "BK0695",
+        "name": "小金属概念",
+        "change_pct": 3.31,
+        "price": 45.885799999999996,
+        "amount": 2318.66
+      },
+      {
+        "code": "BK0524",
+        "name": "参股期货",
+        "change_pct": 3.18,
+        "price": 303.0861,
+        "amount": 419.07
+      },
+      {
+        "code": "BK0519",
+        "name": "稀缺资源",
+        "change_pct": 3.17,
+        "price": 378.7021,
+        "amount": 1569.36
+      },
+      {
+        "code": "BK0986",
+        "name": "CAR-T细胞疗法",
+        "change_pct": 3.17,
+        "price": 10.1655,
+        "amount": 104.74
+      }
+    ],
+    "falling": [
+      {
+        "code": "BK0890",
+        "name": "MLCC",
+        "change_pct": -5.47,
+        "price": 55.582,
+        "amount": 962.56
+      },
+      {
+        "code": "BK0949",
+        "name": "氦气概念",
+        "change_pct": -4.49,
+        "price": 30.171100000000003,
+        "amount": 202.81
+      },
+      {
+        "code": "BK1175",
+        "name": "玻璃基板",
+        "change_pct": -4.07,
+        "price": 29.7936,
+        "amount": 1059.77
+      },
+      {
+        "code": "BK0981",
+        "name": "工业气体",
+        "change_pct": -3.87,
+        "price": 28.9448,
+        "amount": 610.23
+      },
+      {
+        "code": "BK1101",
+        "name": "先进封装",
+        "change_pct": -3.36,
+        "price": 35.983000000000004,
+        "amount": 1356.06
+      }
+    ]
+  },
+  "hot_stocks": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "price": 11.49,
+      "current": 11.49,
+      "change_pct": 2.22,
+      "change": null,
+      "amount": 400.03
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "price": 506.46,
+      "current": 506.46,
+      "change_pct": -3.71,
+      "change": null,
+      "amount": 337.34
+    },
+    {
+      "code": "600487",
+      "name": "亨通光电",
+      "price": 97,
+      "current": 97,
+      "change_pct": -5.27,
+      "change": null,
+      "amount": 215.31
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "price": 481.47,
+      "current": 481.47,
+      "change_pct": -0.42,
+      "change": null,
+      "amount": 202.02
+    },
+    {
+      "code": "688525",
+      "name": "佰维存储",
+      "price": 327.9,
+      "current": 327.9,
+      "change_pct": 1.12,
+      "change": null,
+      "amount": 186.06
+    },
+    {
+      "code": "688256",
+      "name": "寒武纪",
+      "price": 12.4,
+      "current": 12.4,
+      "change_pct": 1.68,
+      "change": null,
+      "amount": 183.76
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "price": 217.55,
+      "current": 217.55,
+      "change_pct": 3.11,
+      "change": null,
+      "amount": 174.65
+    },
+    {
+      "code": "000725",
+      "name": "京东方Ａ",
+      "price": 5.57,
+      "current": 5.57,
+      "change_pct": -4.46,
+      "change": null,
+      "amount": 167.41
+    },
+    {
+      "code": "600522",
+      "name": "中天科技",
+      "price": 48.6,
+      "current": 48.6,
+      "change_pct": -1.36,
+      "change": null,
+      "amount": 165.33
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "price": 394.85,
+      "current": 394.85,
+      "change_pct": 3.31,
+      "change": null,
+      "amount": 162.79
+    },
+    {
+      "code": "600183",
+      "name": "生益科技",
+      "price": 151.28,
+      "current": 151.28,
+      "change_pct": 1.04,
+      "change": null,
+      "amount": 149.74
+    },
+    {
+      "code": "688008",
+      "name": "澜起科技",
+      "price": 224.88,
+      "current": 224.88,
+      "change_pct": -1.67,
+      "change": null,
+      "amount": 148.92
+    },
+    {
+      "code": "601899",
+      "name": "紫金矿业",
+      "price": 29.09,
+      "current": 29.09,
+      "change_pct": 6.44,
+      "change": null,
+      "amount": 147.18
+    },
+    {
+      "code": "688041",
+      "name": "海光信息",
+      "price": 280,
+      "current": 280,
+      "change_pct": -3.39,
+      "change": null,
+      "amount": 143.28
+    },
+    {
+      "code": "688498",
+      "name": "源杰科技",
+      "price": 14,
+      "current": 14,
+      "change_pct": -3.58,
+      "change": null,
+      "amount": 142.59
+    }
+  ],
+  "tracked_stocks": [
+    {
+      "code": "600118",
+      "name": "中国卫星",
+      "price": 78,
+      "current": 78,
+      "change_pct": -0.04,
+      "change": -0.03,
+      "amount": 46.305
+    },
+    {
+      "code": "002149",
+      "name": "西部材料",
+      "price": 59.8,
+      "current": 59.8,
+      "change_pct": -3.38,
+      "change": -2.09,
+      "amount": 38.5999
+    },
+    {
+      "code": "300136",
+      "name": "信维通信",
+      "price": 96.86,
+      "current": 96.86,
+      "change_pct": -2.44,
+      "change": -2.42,
+      "amount": 94.9987
+    },
+    {
+      "code": "688017",
+      "name": "绿的谐波",
+      "price": 351,
+      "current": 351,
+      "change_pct": -4.36,
+      "change": -16,
+      "amount": 81.9303
+    },
+    {
+      "code": "688507",
+      "name": "索辰科技",
+      "price": 247.7,
+      "current": 247.7,
+      "change_pct": 19.95,
+      "change": 41.2,
+      "amount": 33.749
+    },
+    {
+      "code": "300124",
+      "name": "汇川技术",
+      "price": 67.16,
+      "current": 67.16,
+      "change_pct": -2.96,
+      "change": -2.05,
+      "amount": 35.0578
+    },
+    {
+      "code": "002747",
+      "name": "埃斯顿",
+      "price": 32.22,
+      "current": 32.22,
+      "change_pct": -3.39,
+      "change": -1.13,
+      "amount": 37.8631
+    },
+    {
+      "code": "002050",
+      "name": "三花智控",
+      "price": 44.81,
+      "current": 44.81,
+      "change_pct": -1.93,
+      "change": -0.88,
+      "amount": 57.2147
+    },
+    {
+      "code": "603728",
+      "name": "鸣志电器",
+      "price": 60.7,
+      "current": 60.7,
+      "change_pct": -0.85,
+      "change": -0.52,
+      "amount": 8.0546
+    },
+    {
+      "code": "002472",
+      "name": "双环传动",
+      "price": 41,
+      "current": 41,
+      "change_pct": -0.19,
+      "change": -0.08,
+      "amount": 18.5443
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "price": 481.47,
+      "current": 481.47,
+      "change_pct": -0.42,
+      "change": -2.03,
+      "amount": 202.0156
+    },
+    {
+      "code": "000725",
+      "name": "京东方A",
+      "price": 5.57,
+      "current": 5.57,
+      "change_pct": -4.46,
+      "change": -0.26,
+      "amount": 167.4128
+    },
+    {
+      "code": "600487",
+      "name": "亨通光电",
+      "price": 97,
+      "current": 97,
+      "change_pct": -5.27,
+      "change": -5.4,
+      "amount": 215.3125
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "price": 217.55,
+      "current": 217.55,
+      "change_pct": 3.11,
+      "change": 6.56,
+      "amount": 174.6468
+    },
+    {
+      "code": "300394",
+      "name": "天孚通信",
+      "price": 280.95,
+      "current": 280.95,
+      "change_pct": -4.44,
+      "change": -13.05,
+      "amount": 138.5772
+    },
+    {
+      "code": "300502",
+      "name": "新易盛",
+      "price": 506.46,
+      "current": 506.46,
+      "change_pct": -3.71,
+      "change": -19.54,
+      "amount": 337.3414
+    },
+    {
+      "code": "002281",
+      "name": "光迅科技",
+      "price": 204.97,
+      "current": 204.97,
+      "change_pct": -0.21,
+      "change": -0.43,
+      "amount": 88.9901
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "price": 1149,
+      "current": 1149,
+      "change_pct": 2.22,
+      "change": 25,
+      "amount": 400.0301
+    },
+    {
+      "code": "601138",
+      "name": "工业富联",
+      "price": 70.13,
+      "current": 70.13,
+      "change_pct": 0.88,
+      "change": 0.61,
+      "amount": 104.3276
+    },
+    {
+      "code": "000988",
+      "name": "华工科技",
+      "price": 151.01,
+      "current": 151.01,
+      "change_pct": 0.51,
+      "change": 0.76,
+      "amount": 95.9773
+    },
+    {
+      "code": "300408",
+      "name": "三环集团",
+      "price": 126.5,
+      "current": 126.5,
+      "change_pct": -3.9,
+      "change": -5.13,
+      "amount": 77.8288
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "price": 59.12,
+      "current": 59.12,
+      "change_pct": -8.06,
+      "change": -5.18,
+      "amount": 131.128
+    },
+    {
+      "code": "000657",
+      "name": "中钨高新",
+      "price": 79,
+      "current": 79,
+      "change_pct": 1.35,
+      "change": 1.05,
+      "amount": 130.1799
+    },
+    {
+      "code": "002056",
+      "name": "横店东磁",
+      "price": 24.62,
+      "current": 24.62,
+      "change_pct": -0.4,
+      "change": -0.1,
+      "amount": 20.9331
+    },
+    {
+      "code": "601001",
+      "name": "晋控煤业",
+      "price": 20.81,
+      "current": 20.81,
+      "change_pct": 1.31,
+      "change": 0.27,
+      "amount": 7.1304
+    },
+    {
+      "code": "600483",
+      "name": "福能股份",
+      "price": 11.61,
+      "current": 11.61,
+      "change_pct": -0.85,
+      "change": -0.1,
+      "amount": 4.5721
+    },
+    {
+      "code": "603890",
+      "name": "春秋电子",
+      "price": 22.84,
+      "current": 22.84,
+      "change_pct": 0.18,
+      "change": 0.04,
+      "amount": 14.6682
+    },
+    {
+      "code": "002865",
+      "name": "钧达股份",
+      "price": 64.22,
+      "current": 64.22,
+      "change_pct": 0.53,
+      "change": 0.34,
+      "amount": 7.3741
+    },
+    {
+      "code": "002565",
+      "name": "顺灏股份",
+      "price": 13.86,
+      "current": 13.86,
+      "change_pct": 1.39,
+      "change": 0.19,
+      "amount": 9.8083
+    },
+    {
+      "code": "002371",
+      "name": "北方华创",
+      "price": 667.19,
+      "current": 667.19,
+      "change_pct": 4.66,
+      "change": 29.69,
+      "amount": 102.7382
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "price": 57.22,
+      "current": 57.22,
+      "change_pct": -4.78,
+      "change": -2.87,
+      "amount": 86.8595
+    },
+    {
+      "code": "000582",
+      "name": "北部湾港",
+      "price": 11.23,
+      "current": 11.23,
+      "change_pct": 0.18,
+      "change": 0.02,
+      "amount": 4.8173
+    },
+    {
+      "code": "002204",
+      "name": "大连重工",
+      "price": 5.63,
+      "current": 5.63,
+      "change_pct": 2.74,
+      "change": 0.15,
+      "amount": 1.1801
+    }
+  ]
+}

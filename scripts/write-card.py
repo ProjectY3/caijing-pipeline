@@ -244,7 +244,7 @@ def annotate_stock_primary_sectors(stock_cards, sector_map):
     return stock_cards
 
 def find_earliest_mention(stock_name, short, outputs_dir):
-    """Scan all past articles for earliest mention date."""
+    """Scan all past articles for earliest mention date. Falls back to data files."""
     earliest = None
     earliest_file = None
     for html_file in sorted(outputs_dir.glob("*公众号*.html")):
@@ -258,6 +258,26 @@ def find_earliest_mention(stock_name, short, outputs_dir):
             if earliest is None or date < earliest:
                 earliest = date
                 earliest_file = html_file.name
+
+    # Fall back to data files for stocks tracked but never mentioned in articles
+    if earliest is None:
+        data_dir = PROJECT / "data" / "daily"
+        for data_file in sorted(data_dir.glob("*.json")):
+            date_match = re.search(r'(\d{4}-\d{2}-\d{2})', data_file.name)
+            if not date_match:
+                continue
+            date = date_match.group(1)
+            try:
+                content = data_file.read_text(encoding="utf-8", errors="ignore")
+                day_data = json.loads(content)
+                names = {s.get("name", "") for s in day_data.get("tracked_stocks", [])}
+                if stock_name in names:
+                    if earliest is None or date < earliest:
+                        earliest = date
+                        earliest_file = data_file.name
+            except (json.JSONDecodeError, KeyError):
+                continue
+
     return earliest, earliest_file
 
 def main():

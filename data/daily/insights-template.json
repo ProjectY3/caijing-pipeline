@@ -1,0 +1,25 @@
+{
+  "_comment": "每天复盘前填写这个文件，保存为 YYYY-MM-DD-insights.json，放在同目录下",
+  "_instructions": {
+    "market_today": "今天大盘整体情绪，1-2句，AI会读涨跌数据但需要你判断量能/资金性质",
+    "fund_flow": "你整理的资金信息，比如：北上净流入5亿但集中蓝筹、主力在科技线出货等，可以不填",
+    "verified_public": "公众号历史验证点，格式: [{date:'6.4', item:'MLCC方向，三环风华', result:'今天集体涨停'}]",
+    "verified_private": "后花园验证点，格式同上，会自动生成引流段落",
+    "hot_sectors_comment": "你对今天热门板块的判断，比如：CPO持续强但量能不足，说明情绪反弹不是资金主动买",
+    "focus_directions": "接下来重点看什么，比如：MLCC+PCB，中报行情确定性高",
+    "focus_stocks": "看好的具体标的，格式: [{name:'沪电股份', note:'PCB核心，等分歧承接'}, ...]",
+    "tomorrow_watch": "明天关注什么，1-3条",
+    "risk_warning": "风险提示，比如：接下来有各种事件，大盘不会太好，不要追高",
+    "strategy_note": "操作策略，比如：主仓PCB核心，弹性MLCC，买分歧不追一致高开"
+  },
+  "market_today": "",
+  "fund_flow": "",
+  "verified_public": [],
+  "verified_private": [],
+  "hot_sectors_comment": "",
+  "focus_directions": "",
+  "focus_stocks": [],
+  "tomorrow_watch": [],
+  "risk_warning": "",
+  "strategy_note": ""
+}
